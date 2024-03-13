@@ -115,7 +115,7 @@ celestia-appd config keyring-backend test
 tee $HOME/celestia-appd.service > /dev/null <<EOF
 [Unit]
   Description=celestia-appd Cosmos daemon
-  After=network-online.target
+bfgnfh
 [Service]
   User=$USER
   ExecStart=$(which celestia-appd) start
